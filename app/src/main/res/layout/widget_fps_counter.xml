@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fps_counter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@color/propertyBackground" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FPS:"
+        android:textSize="18sp"
+        android:textColor="@color/propertyText"/>
+
+    <TextView
+        android:id="@+id/fps_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NaN"
+        android:textSize="18sp"
+        android:textColor="@color/propertyText"/>
+
+</LinearLayout>

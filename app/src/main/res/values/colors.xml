@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="divider">#353535</color>
+    <color name="propertyGroupTitleBackground">#1f1f1f</color>
+    <color name="propertyGroupTitleText">#d2d2d2</color>
+    <color name="propertyBackground">#1f1f1f</color>
+    <color name="propertyText">#9c9c9c</color>
+    <color name="cameraControlSelected">#03DAC5</color>
+    <color name="buttonText">#d2d2d2</color>
+    <color name="buttonBackground">#4c4a48</color>
+    <color name="optionSelected">#4c4a48</color>
+
+    <color name="darkBackground">#1f1f1f</color>
+</resources>

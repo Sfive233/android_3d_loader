@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">modelLoader</string>
+
+    <!--statistics-->
+    <string name="resolution">Resolution:</string>
+    <string name="gpu">GPU:</string>
+    <string name="vendor">Vendor:</string>
+    <string name="opengl_version">OpenGL:</string>
+    <string name="glsl_version">GLSL:</string>
+    <string name="fps">FPS:</string>
+
+</resources>

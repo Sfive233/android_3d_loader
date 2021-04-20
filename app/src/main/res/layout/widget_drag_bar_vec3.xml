@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            style="@style/PropertyWidgetDragBarVec3.Sub">
+
+            <TextView
+                android:id="@+id/drag_bar_Vec3_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PropertyWidgetDragBarVec3.Sub.Name"/>
+
+            <SeekBar
+                android:id="@+id/drag_bar_vec3_x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PropertyWidgetDragBarVec3.Sub.X"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/drag_bar_vec3_val_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textColor="@color/propertyGroupTitleText"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            style="@style/PropertyWidgetDragBarVec3.Sub">
+
+            <View
+                android:layout_width="match_parent"
+                style="@style/PropertyWidgetDragBarVec3.Sub.PlaceHolder"/>
+
+            <SeekBar
+                android:id="@+id/drag_bar_vec3_y"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PropertyWidgetDragBarVec3.Sub.Y"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/drag_bar_vec3_val_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textColor="@color/propertyGroupTitleText"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            style="@style/PropertyWidgetDragBarVec3.Sub">
+
+            <View
+                android:layout_width="wrap_content"
+                style="@style/PropertyWidgetDragBarVec3.Sub.PlaceHolder"/>
+
+            <SeekBar
+                android:id="@+id/drag_bar_vec3_z"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PropertyWidgetDragBarVec3.Sub.Z"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/drag_bar_vec3_val_z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textColor="@color/propertyGroupTitleText"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+
+</LinearLayout>

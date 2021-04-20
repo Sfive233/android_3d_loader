@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:orientation="vertical"
+    android:background="@color/propertyBackground">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:id="@+id/option_panel_root"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <ImageView
+                android:id="@+id/icon_model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/selector_color_test"
+                android:src="@drawable/ic_option_model" />
+            <ImageView
+                android:id="@+id/icon_material"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/selector_color_test"
+                android:src="@drawable/ic_option_material" />
+            <ImageView
+                android:id="@+id/icon_environment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/selector_color_test"
+                android:src="@drawable/ic_option_environment" />
+            <ImageView
+                android:id="@+id/icon_shading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/selector_color_test"
+                android:src="@drawable/ic_option_shading" />
+            <ImageView
+                android:id="@+id/icon_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/selector_color_test"
+                android:src="@drawable/ic_option_camera" />
+            <ImageView
+                android:id="@+id/icon_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/selector_color_test"
+                android:src="@drawable/ic_option_setting" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ScrollView
+        android:id="@+id/property_panel_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>

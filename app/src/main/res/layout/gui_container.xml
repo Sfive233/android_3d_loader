@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ic_list"
+        style="@style/GUIThemeDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_list"
+        android:background="@drawable/shape_circle"
+        android:backgroundTint="@color/darkBackground" />
+
+    <com.example.android_3d_loader.view.widget.WidgetFPSCounter
+        android:id="@+id/fps_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/notice_icon"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="15dp"-->
+<!--        android:padding="5dp"-->
+<!--        app:layout_constraintLeft_toRightOf="@id/fps_counter"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:src="@drawable/ic_log"-->
+<!--        app:tint="@color/selector_icon"-->
+<!--        android:background="@drawable/shape_circle"-->
+<!--        android:backgroundTint="@color/darkBackground" />-->
+
+<!--    <com.example.modelloader.view.widget.notice.WidgetNoticePanel-->
+<!--        android:id="@+id/notice_panel"-->
+<!--        android:layout_width="335dp"-->
+<!--        android:layout_height="220dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_margin="15dp"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/fps_counter"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent" />-->
+
+    <ImageView
+        android:id="@+id/ic_camera_drag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        style="@style/GUIThemeDark"
+        android:src="@drawable/ic_camera_drag"
+        app:tint="@color/selector_icon"
+        android:background="@drawable/shape_circle"
+        android:backgroundTint="@color/darkBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/vertical_mid_guideline"/>
+
+    <ImageView
+        android:id="@+id/ic_camera_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        style="@style/GUIThemeDark"
+        android:src="@drawable/ic_camera_rotate"
+        app:tint="@color/selector_icon"
+        android:background="@drawable/shape_circle"
+        android:backgroundTint="@color/darkBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/vertical_mid_guideline"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical_mid_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

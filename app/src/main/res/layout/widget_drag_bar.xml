@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/PropertyWidgetDragBar.Sub">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+            <TextView
+                android:id="@+id/drag_bar_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="property name"
+                style="@style/PropertyWidgetDragBar.Sub.Name"/>
+
+            <SeekBar
+                android:id="@+id/drag_bar_seek_bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/PropertyWidgetDragBar.Sub.SeekBar"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/drag_bar_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textColor="@color/propertyGroupTitleText"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+</FrameLayout>

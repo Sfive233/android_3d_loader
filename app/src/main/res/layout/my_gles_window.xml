@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_gles_window_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/window"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <com.example.modelloader.gui.GLContentContainer-->
+<!--            android:id="@+id/gl_content_container"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+
+        <!-- ? -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <com.example.android_3d_loader.view.widget.WidgetRightSidePanel
+        android:id="@+id/right_side_panel"
+        android:layout_width="360dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

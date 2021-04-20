@@ -1,0 +1,155 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Splash" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="DialogFullScreen" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="GUIThemeDark">
+        <item name="android:background">@color/darkBackground</item>
+    </style>
+
+    <!--Property List-->
+    <style name="PropertyGroup" >
+        <item name="android:divider">@drawable/shape_divider</item>
+        <item name="android:showDividers">beginning</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    <style name="PropertyGroupTitle">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <style name="PropertyGroupTitle.Name">
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/propertyGroupTitleBackground</item>
+        <item name="android:textColor">@color/propertyGroupTitleText</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="PropertyGroupTitle.Icon">
+    </style>
+    <style name="PropertyGroupSubs">
+    </style>
+
+    <!--Switch-->
+    <style name="PropertyWidgetSwitch">
+    </style>
+    <style name="PropertyWidgetSwitch.Sub">
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="PropertyWidgetSwitch.Sub.Name">
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/propertyText</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="PropertyWidgetSwitch.Sub.Switch">
+        <item name="android:layout_weight">1</item>
+        <item name="android:checked">true</item>
+    </style>
+
+    <!--Drag Bar-->
+    <style name="PropertyWidgetDragBar">
+    </style>
+    <style name="PropertyWidgetDragBar.Sub">
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="PropertyWidgetDragBar.Sub.Name">
+        <item name="android:layout_weight">2</item>
+        <item name="android:textColor">@color/propertyText</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="PropertyWidgetDragBar.Sub.SeekBar">
+        <item name="android:layout_weight">1</item>
+        <item name="android:progress">5</item>
+        <item name="android:max">10</item>
+        <item name="android:progressDrawable">@drawable/drag_bar</item>
+    </style>
+
+    <!--Drag Bar Vec3-->
+    <style name="PropertyWidgetDragBarVec3">
+    </style>
+    <style name="PropertyWidgetDragBarVec3.Sub">
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="PropertyWidgetDragBarVec3.Sub.Name">
+        <item name="android:layout_weight">2</item>
+        <item name="android:textColor">@color/propertyText</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="PropertyWidgetDragBarVec3.Sub.PlaceHolder">
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_height">28dp</item>
+    </style>
+    <style name="PropertyWidgetDragBarVec3.Sub.X">
+        <item name="android:layout_weight">1</item>
+        <item name="android:progress">5</item>
+        <item name="android:max">10</item>
+<!--        <item name="android:progressDrawable">@drawable/drag_bar_r</item>-->
+    </style>
+    <style name="PropertyWidgetDragBarVec3.Sub.Y">
+        <item name="android:layout_weight">1</item>
+        <item name="android:progress">5</item>
+        <item name="android:max">10</item>
+<!--        <item name="android:progressDrawable">@drawable/drag_bar_g</item>-->
+    </style>
+    <style name="PropertyWidgetDragBarVec3.Sub.Z">
+        <item name="android:layout_weight">1</item>
+        <item name="android:progress">5</item>
+        <item name="android:max">10</item>
+<!--        <item name="android:progressDrawable">@drawable/drag_bar_b</item>-->
+    </style>
+
+    <!--Texture-->
+    <style name="PropertyWidgetTexture">
+    </style>
+    <style name="PropertyWidgetTexture.NameAndPath">
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="PropertyWidgetTexture.NameAndPath.Name">
+        <item name="android:layout_weight">3</item>
+        <item name="android:textColor">@color/propertyText</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="PropertyWidgetTexture.NameAndPath.Path">
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/propertyText</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="InfoDialog">
+        <item name="android:background">@color/propertyBackground</item>
+    </style>
+    <style name="InfoDialog.Title">
+        <item name="android:background">@color/propertyGroupTitleBackground</item>
+        <item name="android:textColor">@color/propertyGroupTitleText</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="InfoDialog.Divider">
+        <item name="android:background">@drawable/shape_divider</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    <style name="InfoDialog.Message">
+        <item name="android:textColor">@color/propertyText</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>
