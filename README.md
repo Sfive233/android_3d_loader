@@ -2,6 +2,8 @@ Android_3d_Loader
 
 基于OpenGL ES 3.0的3D模型查看器，支持模型读取、材质替换、光照调节。
 
+安装包路径：app/release/android_3d_loader.apk
+
 使用到的项目
 
 > TGAReader：[https://github.com/npedotnet/TGAReader]
