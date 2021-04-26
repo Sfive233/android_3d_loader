@@ -32,8 +32,11 @@ Android_3d_Loader
 # 效果展示
 
 Direct Lighting：
+
 ![DirectLighting](http://sfive233.gitee.io/img/direct_lighting.png "DirectLighting")
+
 模型读取：
+
 ![obj](http://sfive233.gitee.io/img/obj.gif "obj")
 
 传统渲染：
@@ -41,9 +44,11 @@ Direct Lighting：
 ![Traditional](http://sfive233.gitee.io/img/traditional.png "Traditional")
 
 PBR渲染：
+
 ![PBR](http://sfive233.gitee.io/img/pbr.png "PBR")
 
 天空盒：
+
 ![Skybox](http://sfive233.gitee.io/img/skybox.gif "Skybox")
 
 色调映射：
