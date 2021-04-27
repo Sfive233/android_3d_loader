@@ -23,7 +23,7 @@ Android_3d_Loader
 - SkyBox
   - [x] .hdr
 - 光照
-  - [x] Direction Lighting
+  - [x] Direct Lighting
   - [x] Shadow Mapping
 - 后期处理
   - [x] Bloom
