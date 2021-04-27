@@ -37,7 +37,7 @@ Direct Lighting：
 
 模型读取：
 
-![obj](http://sfive233.gitee.io/img/obj.gif "obj")
+<img width="1280" src="http://sfive233.gitee.io/img/obj.gif" alt="show" />
 
 传统渲染：
 
@@ -49,8 +49,8 @@ PBR渲染：
 
 天空盒：
 
-![Skybox](http://sfive233.gitee.io/img/skybox.gif "Skybox")
+<img width="1280" src="http://sfive233.gitee.io/img/skybox.gif" alt="show" />
 
 色调映射：
 
-![ToneMapping](http://sfive233.gitee.io/img/tone_mapping.gif "ToneMapping")
+<img width="1280" src="http://sfive233.gitee.io/img/tone_mapping.gif" alt="show" />
